@@ -1,0 +1,187 @@
+body{
+    font-family: 'Amarante', cursive;
+    background-color: lightsteelblue;
+}
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#logo
+{
+	color: white;
+	margin-top: 20px;
+	font-size: 44px;
+	letter-spacing: 3px;
+    font-weight: 900;
+    text-align: center;
+}
+#menu
+{
+	background-color:lightgoldenrodyellow;
+	margin-top: 20px;
+	color:darkslategray;
+	padding: 15px;
+	
+}
+.click
+{
+	float: left;
+	min-width: 90px;
+	height: 15px;
+	font-size: 18px;
+	padding: 20px;
+	border-right: 2px dotted lightsteelblue;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.click:hover
+{
+	background-color:cornflowerblue;
+	cursor: pointer;
+}
+#topbar
+{
+	background-color:lightgoldenrodyellow;
+	color: darkslategray;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	height: 200px;
+}
+#topbarL
+{
+	float:left;
+	padding: 20px;
+	width: 150px;
+	text-align: center;
+	border-right: 2px dotted #cccccc;
+}
+#topbarR
+{
+	float: left;
+	padding: 20px;
+	width: 760px;
+	font-size: 16px;
+	text-align: justify;
+}
+.bigtitle
+{
+	font-size: 32px;
+	font-weight: 900;
+	letter-spacing: 2px;
+}
+#lowermenu
+{
+	margin-top: 20px;
+	color:darkslategray;
+	padding: 15px;
+}
+.categories
+{
+	min-width: 90px;
+	height: 15px;
+	font-size: 18px;
+	padding: 20px;
+	border-right: 2px dotted lightsteelblue;
+    opacity: 0.8;
+    text-align: center;
+}
+.categories:hover
+{
+    background-color: rgb(243, 243, 177);
+    cursor: pointer;
+}
+#lowertitle
+{
+	font-size: 32px;
+	font-weight: 900;
+    letter-spacing: 2px;
+    text-align: center;
+    color:rgb(243, 243, 177)
+}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: lightgoldenrodyellow;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: lightgoldenrodyellow;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
