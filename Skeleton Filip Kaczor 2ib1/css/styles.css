@@ -1,0 +1,80 @@
+.logo{
+    color: deepskyblue;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+body{
+    background-color: whitesmoke;
+}
+.nav-menu{
+    color:deepskyblue;
+}
+#photos{
+    max-height: 60vh;
+    overflow-y: scroll;
+    margin-bottom: 50px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.butt:hover{
+    background-color: deepskyblue;
+}
+.contact{
+    color:deepskyblue
+}
+.futer{
+    width: 100%;
+}
+.contact{
+    margin-top: 5vh;
+    margin: 5vh 0vh;
+    display: flexbox;
+    justify-content: center;
+    font-size: large;
+    
+}
+.contact ul ,.social ul {
+    list-style-type: none;
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+}
+.poster{
+    margin-left: 0;
+}
+ul{
+    list-style: none;
+}
+.social{
+    margin: 10vh 0vh;
+    display: flexbox;
+    justify-content: center;
+}
+.copyright{
+    width:"100%";
+    text-align: center;
+    font-size: 10px;
+}
+.social-facebook:hover{
+    transform: rotate(360deg);
+    transition: 2s;
+}
+.social-dribble:hover{
+    transform: rotate(360deg);
+    transition: 2s;
+}
+.social-twitter:hover{
+    transform: rotate(360deg);
+    transition: 2s;
+}
+.contact-name:hover{
+    color:gray ;
+}
+.contact-phone:hover{
+    color:gray ;
+}
+.contact-email:hover{
+    color:gray ;
+}
